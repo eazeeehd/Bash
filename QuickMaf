@@ -1,0 +1,20 @@
+#!/bin/bash
+#file start
+clear
+echo "Please enter the first number: "
+read x
+echo "Please enter the second number: "
+read y
+echo "What would you like to do with these numbers"
+echo "+ Add - Subtract x Multiply "
+read math
+
+if test $math == "x";
+then
+total=`expr $x \* $y`
+echo "the numbers are $x * $y = $total"
+else
+total=`expr $x $math $y`
+echo "The numbers are $x $math $y = $total"
+fi
+#eof
