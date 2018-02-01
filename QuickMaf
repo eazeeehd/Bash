@@ -6,7 +6,7 @@ read x
 echo "Please enter the second number: "
 read y
 echo "What would you like to do with these numbers"
-echo "+ Add - Subtract x Multiply "
+echo "+ Add - Subtract x Multiply / Divide "
 read math
 
 if test $math == "x";
